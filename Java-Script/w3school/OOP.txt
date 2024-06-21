@@ -1,0 +1,169 @@
+   OOP => object oriented programming 
+
+What is Object ?
+--package containes properties and functions that work togather 
+--object has a properties and methods 
+
+
+
+Procedural vs OOP 
+--divied into functions + variable      -- divied into object + methods 
+--overloading is not possible           -- overloading is possible 
+--hiding data not possible              -- hiding data possible 
+--data is separated                     -- data is in one location
+=========================================================================
+Defining Object 
+[1]- object literal
+ex:
+let nameOfObject{
+    // properties 
+    nameOfVariable: "value",
+
+
+   // methods 
+   nameOfMethods : function () { // block of code };
+};
+to access on object:
+nameOfObject.nameOfVarible||nameOfMethods;
+---------------
+[2]- Nested Object 
+ex:
+let nameOfObject {
+   // properties
+   name: {
+        // properties
+
+        // methods
+       }
+
+   // Methods 
+}
+========================================================================
+    Delete Operator => use to delete property from object {key and value }
+synatx:
+--delete nameOfObject.nameOfProperty  => note: you delete properties not object 
+--------
+there is an property take you can not delete any properties from object:
+--let nameOfObject = Object.freeze({// code of object})
+--Object.defineProperty(nameOfObject, "nameOfProerty", {value: , configurable : booleanValue}) => if configurable is true can delete the property else can not 
+==========================================================================
+    For...In Loop => loop thruogh the properties of the objects
+syntax:
+for(let variable in objectName) {
+   // block of code 
+};
+
+===========================================================================
+        Constructor Functions 
+=> is a blueprint from it can define objects 
+
+ex:
+function Phone (serial, color , price) {
+      // this =>is the created object from the constructor function
+    this.serial = serial;
+    this.color  = color;
+    this.price  = price;
+}
+
+let phone1 = new Phone(156, "Red" , 500);  // this is called instance 
+let phone2 = new Phone(287, "Black" , 900);
+let phone3 = new Phone(794, "Blue" , 1000);
+
+=============================================================================
+              Prototype
+
+==============================================================================
+              Calss (ES6)
+=> is new way to write constructor in js 
+synatx:
+class nameOfClass {
+    constructor () {
+         // block of code from methods and properties 
+     }
+}
+ex:
+class User {
+    constructor (name, email) {
+         this.name = name;
+         this.email = email;
+    }
+    sayHello () {
+        return `Hello ${this.name}`;
+    }
+    showEmail () {
+       return `Your Email is ${this.email}`;
+    }
+    writeMsg () {
+       return `Message from parent calss`;
+    }
+}
+let user1 = new User ("Ibrahim", "i@mm.sa");
+
+
+
+--Static Properties and Methods => that is not related by inherted object but it related just by main Class
+synatax:
+         static property_name = value ;  // outside construcotr  
+         static method_name () {}
+
+ 
+
+        Inhertance
+=> can inhert the properties and methods from the main class and add new properties and methods if you want 
+
+syntax:
+class name_inheted_class extends name_main_class { 
+    constractor () {
+    super()     // => call the main constrauctor and access on it properties  
+}
+
+ex: from the example above this 
+clss Admin extends User {
+    constructor (name, email) {
+        super(name, email) 
+    }
+    adminMsg() {
+        return `You are Admin`;
+    }
+    writeMsg() {   // you can overide the methods in main class
+       return `Message from child class`;
+    }
+}
+let admin1 = new Admin
+
+
+
+            Setter and Gertters => JavaScript Accessors 
+=> makes the code more simple and use for privacy
+=> palces beofre the methods 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

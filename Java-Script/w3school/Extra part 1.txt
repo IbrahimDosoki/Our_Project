@@ -1,0 +1,50 @@
+       Set and Data Type 
+=> use to just save unique data from array or any iterable
+---Object to store unique values
+---Connot access element by index
+
+Syntax:
+new Set (Iterable ) 
+
+iterable.size  => to know the size of iterable
+
+
+       Methods 
+--iterable.add(item)
+--iterable.delete(item)  => delete item and can know if the item is exist or no 
+--iterable.clear()  => delete all items 
+--iterable.has(item) => search if item exist or no 
+--iterabel.keys();   => return the values 
+--iterable.next().value  => to returen an item of iterable 
+================================================================================
+      WeakSet Data Type 
+=> The weakset is weak , meaning referances to objects in a weakset are held are weakly 
+=> If no other references to an object stored in the weakset exits , those objects can be garbege collected 
+synatx:
+let newIterable = new WeakSet(oldIterable)
+      
+      WeakSet VS Set 
+
+Type of data 
+Set     => Can store any data values 
+WeakSet => Collection of objects only 
+-------------------
+Set     => Have Size property 
+WeakSet => Does not have size property 
+
+--------------------
+Set     => Have keys , values , entries 
+WeakSet => Does not have clear , keys , values and entries 
+
+--------------------
+Set     => Can use forEach 
+WeakSet => Can not use forEach 
+--------------------
+WeakSet Usage => Store objcet and removes them once they become inaccessiable 
+
+
+
+
+
+
+

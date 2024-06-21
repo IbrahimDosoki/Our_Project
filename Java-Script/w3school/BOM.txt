@@ -1,0 +1,132 @@
+    BOM => Browser Object Model
+
+What can we do with window object 
+
+1)-Run code after period of time once or more 
+2)-Fully control The URL 
+3)-Save Data Inside Browser to use later
+...........and so on 
+-------------------------
+    To display message 
+
+alert(" message")
+confirm(" message")
+prompt(" message")
+
+===============================================================
+       setTimeout and clearTimeout
+
+setTimeout(function () {} , timeout by mill second)    => can call a function after specific time 
+clearTimeout ()
+
+
+setInterval( function , millseconds , Additional params)  => like setTimeout but for ever 
+cleatInterval(Inentifier) 
+================================================================
+       Location Object 
+
+href Get / Set [URL || Hash || File || Mail] =   => hyper text refrence can go for link in other place or hash in this page 
+ex:
+location.href   => for get 
+
+location.host
+location.hostname
+
+location.protocol
+
+location.hash
+
+location.reload()  => doing reload for page 
+
+location.replace()  => change url and deleted it form history 
+
+location.assign()  => change url and not deleted it form history
+
+===============================================================================
+       Window open and close 
+open[URL [opt], Window name or target attr [opt], win features [opt], history rep
+
+close ()
+
+width [num]
+height [num]
+left [num]
+top [num]
+
+search : window.open window features 
+===================================================================================
+       History Object 
+histoy.length 
+history.back()
+history.forward()
+history.go(delta)
+====================================================================================
+              Scrolling 
+
+window.stop()
+window.print()
+window.focus()
+
+scrollTo(x, y || option)
+scroll(x, y || option)
+scrollBy(x, y || option)
+====================================================================================
+              Local Storage     => Save data for all time in localStorage 
+
+set:
+
+window.localStorage.setItem("key" , "value" );
+
+window.localStorage.key = "value";
+
+window.localStorage["key"] = "value";
+
+
+get:
+
+window.localStorage.getItem("key")
+
+window.localStorage.key;
+
+window.localStorage["key"];
+
+
+remove one :
+
+window.localStorage.removeItem("key");
+
+remove all:
+window.localStorage.clear();
+
+
+get key:
+window.localStorage.key(index);
+
+
+
+               Session Storage     => like locatStorage but it save data just for this sassion and with all properties 
+
+setItem 
+getItem 
+removeItem
+clear
+key 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

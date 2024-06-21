@@ -1,0 +1,57 @@
+             Numbers Methods
+
+toString()  =>	Returns a number as a string
+toFixed()    =>  Returns a number written with a number of decimals
+
+Number()    =>  Returns a number converted from its argument.
+parseFloat()    =>  Parses its argument and returns a floating point number
+parseInt()   =>     Parses its argument and returns a whole number
+
+
+Number.isInteger()	=> Returns true if the argument is an integer
+Number.isSafeInteger()	=> Returns true if the argument is a safe integer
+
+
+
+MAX_VALUE	=> The largest number possible in JavaScript
+MIN_VALUE	=> The smallest number possible in JavaScript
+
+
+
+*Number Methods Cannot be Used on Variables
+
+=====================================================================
+                 String Methods
+
+-> Templates are strings enclosed in backticks (`This is a template string`) 
+
+String Length   => To find the length of a string, use the built-in length property   (text.length)
+
+
+charAt() => method returns the character at a specified index (position) in a string
+at()     => method returns the character at a specified index (position) in a string
+indexOf() => method returns the index (position) of the first occurrence of a string in a string, or it returns -1 if the string is not found
+lastIndexOf() => like indexOf but from the end
+
+slice(start, end)  =>  extracts a part of a string and returns the extracted part in a new string
+substring(start, end) =>  is similar to slice()
+substr(start, length) => is similar to slice()
+
+toUpperCase()   => A string is converted to upper case with
+toLowerCase()   => A string is converted to lower case with
+
+trim()          => method removes whitespace from both sides of a string
+trimEnd()       => remove the whitespace just  from the end 
+trimStart()     => remove the whitespce just  from the start
+
+repeat()    => is repeat the string ->  syntax: string.repeat(count)
+replace()   => methods replace a specified value with another value in a string 
+     
+
+
+
+
+
+
+
+

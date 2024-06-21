@@ -1,0 +1,17 @@
+{
+    "userName" : "Ibrahim",
+    "location" : "Egypt",
+    "skills" : [["Html", "Pugjs", "Haml"] ,[ "css", "Sass" , "Less"], ["js ", "Babel "]],
+    "skillsProgrees" : 
+        [{"Html" : "60%", "Pugjs" : "50%"},
+        {"CSS" : "40%", "Sass" : "90%"}],
+    "address": {
+        "Eygpt": "Sharkeya",
+        "KSA" : "Malaz",
+        "USA" : "California",
+        "Grtmany" : ["One ", "Two" , "Three"]
+    },
+    "age": 19,
+    "working": false,
+    "identity" : null 
+}

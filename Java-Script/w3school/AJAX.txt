@@ -1,0 +1,8 @@
+     AJAX
+=> Asynchronous JavaScript and XML
+=> Ajax is not Programming language its Technique Contain Many Technologies
+=> DOM -> interacting with data and dispaly it
+=> XML/JSON -> get & send data to the server
+=> XMLHttpRequeset -> making the communication with the server
+=> JS -> connect all technologies togather 
+----------------------------------------------------------------------------

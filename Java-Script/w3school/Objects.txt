@@ -1,0 +1,82 @@
+          Object  = methods + Properties
+
+syntax:
+let name = {
+   //properties
+    code 
+
+  // methods  
+    code 
+     ex:
+       checkAv: function () {
+                  //code
+                 }
+};
+
+to access in object 
+name.(properties || methods )
+
+Note:
+--- Dot notation (use for access) => name.properties || methods
+---Bracket Notation (ues for access) => name[properties || methods]
+
+==================================
+    Nested Object 
+
+let name = {
+   code of properties and methods 
+
+   name2 : {
+         code of properties 
+       }
+
+}
+
+
+=====================================================
+          creat object with (new) keyword 
+
+let name = new Object ();
+let name = new Object ({ if you want to add a data like methods and properties });  
+
+=======================================================
+          this keyword   => تدل علي المكان الي هي فيه 
+
+=======================================================
+     Create object with create method 
+syntax:
+let name = Object.create();
+let name = Object.create({ // code });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

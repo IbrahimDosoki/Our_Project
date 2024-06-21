@@ -1,0 +1,111 @@
+        Array
+
+Syntax:
+const array_name = [item1, item2, ...];
+ther is another way to defined an array by using keyword (new) : 
+ex:
+const points = new Array(40, 100, 1, 5, 25, 10);
+const points = [40, 100, 1, 5, 25, 10];
+
+
+1)- Accessing Array Elements
+You access an array element by referring to the index number: name_of_Array[index_of_element]
+
+
+2)-toString() converts an array to a string of (comma separated) array values
+ex:
+Array_name.toString()
+
+
+3)-length  =>  property of an array returns the length of an array (the number of array elements)
+ex:
+nameOfArray.length
+
+
+4)-push()  => add a new element to an array from the end
+
+
+
+*=> Search About   -> The Difference Between Arrays and Objects
+
+
+======================================================
+        Methods in Array 
+
+1)- at() =>  returns an indexed element from an array and can use the negative values   
+ex:
+nameOfArray.at(indexOfElement)
+
+2)-copyWithin()  => array.copyWithin(target, start, end)
+
+
+3)- join()  => method return an array as a string 
+            => method does not change the original array 
+            => any separator can be specified , The defualt is comma (,)
+Syntax:
+array.join(separator)
+
+
+4)-pop()  => remove the last element from the array and you can return it 
+nameOfArray.pop()
+
+
+5)- reverse()  => reverses the order of the elements in an array
+array.reverse()
+
+6)- shift() => remove the first element of an array and return the element removed
+array.shift()   => don't take an parameters
+
+
+8)- unshift()  => adds new element to the beginning of an array
+array.unshift() 
+
+7)- slice()  => returns selected elements in an array, as a new array.
+array.slice(start, end)
+
+
+9)- sort()   => it sorted an array (order it )
+array.sort()
+
+10)- split() => takes a pattern of string and divides this string into an ordered list of substrings by searching for the pattern, puts these substrings into an array, and returns the array.
+Syntax:
+split(separator)
+split(separator, limit)
+
+=======================================================================================================
+           Array Methods 
+
+1)-Array.from(iterable String, mapFunc, this )  => create an array from you iterable 
+ex:
+
+2)-Array.copyWithin(Target, Start => optional , End => optional) => copy a part of array from location to another in the same array 
+
+3)-Array.some(CallBackFunction(element, index,array ), this argument)  => at least on element applied the condition to returne  true else false
+---callBackFunction => to run on every element on the given array 
+---index => of current element 
+---array => the current array working with 
+---this arrg => value to use as this when executing callBackFunction  => all element must applied the condition to return ture else false 
+4)-Array.every(callBackFunction(element, index, array), this arrgurment)
+---callBackFuction => to run on every element on the given array 
+---index => index or current element 
+---element => the current element ot process
+
+===========================================================================================================
+        Spread Operator  => ...iterable
+
+"Allow iterable to expend in place "
+
+ex: conacate 
+allArray = [...arr1, ...arr2];
+
+
+
+
+
+
+
+
+
+
+ 
+

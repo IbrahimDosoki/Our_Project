@@ -1,0 +1,83 @@
+ JavaScript
+
+
+There is three place to write a javascript 
+1-in Html by <script>body </script>
+2-or by attribute in html 
+3-in external file 
+
+====================
+1)-Variables are Containers for Storing Data
+JavaScript Variables can be declared in 4 ways:
+
+Automatically  => x = 5;
+Using var   => var t = 8;  => can be redeclared
+Using let   => let y = 6;  => can not be redeclared
+Using const  => const z = 9;   =>can not be redeclared
+
+* => You can declare many variables in one statement.
+ex:
+let person = "John Doe", carName = "Volvo", price = 200;
+
+* => You cannot re-declare a variable declared with (let) or (const)
+
+
+=> ايه الافضل التعريف اوتوماتيكالي او التعريف علي طريق كلمات التعريف
+
+
+
+================================================================
+Types of JavaScript Operators
+There are different types of JavaScript operators:
+
+1)-Arithmetic Operators
+(+ , - , * , / , ** , % , ++ , -- )
+
+
+2)-Assignment Operators
+(= , += , -= , *= , /= , %= , **= )  
+
+
+3)-Comparison Operators
+(== , === , != , !== , > , < , <= , >= , ? )
+
+
+4)-String Operators
+(+ => as concat operator )
+* -> If you add a number and a string, the result will be a string!
+
+
+5)-Logical Operators
+(&& , || , !)
+
+
+-Bitwise Operators
+-Ternary Operators
+-Type Operators
+
+
+
+===============================================
+JavaScript has 8 Datatypes
+1. String
+2. Number
+3. Bigint
+4. Boolean
+5. Undefined
+6. Null
+7. Symbol
+8. Object
+
+
+
+
+
+
+
+
+
+
+
+
+
+

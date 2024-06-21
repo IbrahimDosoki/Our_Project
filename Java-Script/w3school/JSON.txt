@@ -1,0 +1,112 @@
+      JSON
+=> format for sharing data between server and client (browser)
+=> JSON => JavaScript Object Notation
+=> Object contains properties and its value 
+=> Json derived from javascript 
+=> Alternative XML
+=> Extension is .json
+=> MIME type is application/json
+=> Easy to use and read
+=> Used by most programming languages and its frameworks 
+=> You can convert JS object into json object and revers
+=> API support [Facebook , Twitter , Github ]
+-----------------------------------------------------------------
+      Syntax:
+-Data written inside curly braces {}
+-Data contains key => value 
+-Key and vlaue separated by colon : // "key" : vlaue
+-Key should be wrapped in double quotes // "key" : vlaue 
+-Separate data by comma (,) { "key": value , "key":"value"}
+-Can be written in one line or multiple lines depend on data 
+-Square brackets contains Arrays []
+-Curly braces containes object {}
+
+
+
+      Data Type 
+-Number
+-String 
+-JSON Object 
+-Array 
+-Boolean
+-null
+=====================================================================
+API => diaplay just the public data and can use it to diasplay in your website 
+---------------------------------------------------------------------------------
+
+        How Convert from JSON Object to JS Object and reverse  
+
+--use (parse) to convert from json object to js object
+ex:
+let myJsObj   = JSON.parse(myJsonObj);
+
+--use (stringfy) to convert from js object ot json object
+ex:
+let myJsonObj   = JSON.stringify(myJsObj);
+
+
+
+==========================================================================================================
+==========================================================================================================
+==========================================================================================================
+     Asynchronous vs Synchronous Programming 
+
+Synchronous :
+-Operating runs in sequence 
+-Each operation must wait for the precious one to complete 
+
+
+Asynchronous :
+-Operations run in parallel 
+-This means that an operation can occur while another one is still being processed
+
+
+Search :
+-JaveScript is a singlr threaded language
+-Multi Threaded Languages
+
+Single Thread 
+--this doing one thing in one time 
+
+
+==========================================================================================================
+==========================================================================================================
+==========================================================================================================
+     Call Stack and Web API 
+
+Call Stack || Stack Trace 
+--Javascript Engine uses a call stack to manage execution contexts 
+--Mechanism to make the interpreter track you calls 
+--When function called it added to the stack 
+--After function is finished execution the interpreter continue from the last point
+--Work using LIFO principle -> last in first out 
+--Code execution is synchronous .
+--Call Stack detect Web API methods and leace it to the vrower to handle it 
+
+wep API 
+--Methods available from the enviroment -> browser
+
+==========================================================================================================
+==========================================================================================================
+==========================================================================================================
+     Event Loop and CallBack Queue 
+story:
+--Javascript is a single threaded language "All operations Executed in single thread" 
+--Call stack track all calls 
+--Every function is done its poped out 
+--Asynchronous function like settimeout start its own thread 
+--Browser API Act as a second thread
+--API finish waiting and send back the function for processing 
+--Browser API add the callback to callback queue 
+--Event Loop wait for call stack to be empty 
+--Event loop get callback from callback queue and add it to call stack 
+--Callback queue follow FIFO "First in first out" Rule
+
+
+
+
+
+
+
+
+

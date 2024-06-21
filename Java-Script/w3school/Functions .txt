@@ -1,0 +1,91 @@
+    Functions 
+
+synatx: 
+function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+
+=========================
+    Arrow Functions 
+Arrow functions allows a short syntax for writing function expressions you don't need the (functions) keyword 
+syntax:
+(param1, paramN) => {
+  statements
+}; 
+                           or 
+() => expression;
+
+
+=========================
+       Default Parameter
+ES6 allows functions paramerters to have default values 
+ex:
+functions myValues (x, y = 10 ) {
+    // block of code 
+}
+
+
+=============================
+           Anonymous Function 
+=> a functions without name 
+let name_varuable = function (para1,para2, .....) {};
+
+=============================
+=============================
+          Higher order Functions 
+
+-> is a functions that accepts functions as parameters and/or returns a function
+
+
+-----------------
+1)-Map 
+----Method create a new array 
+----populated with the results of calling a provided function on every element  
+----in the calling array.
+
+syntax:
+map(callBackFunction (element, index, array ) { // code }, thisArg)
+
+--element => the current element being processed in the array
+--index => the index of the current element being processed in the array 
+
+Note : Map return the new array 
+
+ex:
+let myNums = [1, 2, 3, 4];
+
+let addSelf = myNums.map(function (ele , index, arr) {
+    return ele + ele ;
+},10 );
+
+
+-------------------------------
+2)- Filter => (بيرجع مصفوفه جديده فيها العناصر الي عدة من التيست (صح
+---Method creates a new array 
+---with all element that pass the test impleneted by the provided function 
+
+syntax:
+name.filter (callBackFunction (element , index , arr) { block of code } , thisArg)
+
+-------------------------------
+3)- reduce   => بتنفز الداله علي كل عنصر من عناصر المصفوفه لكن بتفضل تخفض النتئج لعند ماترجع قيمه واحده بس في الاخر 
+----method exevutes a reduce function on each element of the array
+----resulting in a single output value
+
+syntax:
+name.reduce(callBackFucntion (Accumulator , Current Value , Cuttent Index, Source Array ) { code } , intialValue )
+-------------------------------
+4)-forEach   => يفضل استخدامها لما يكون بيانات المصفوفه انت مش عاوز تغير فيها حاجه 
+
+----method executes a provided function once for each arrau element 
+
+syntax:
+name.forEach(callBackFunction (element , index, array ) {  code } , thisArg )
+
+Note:
+--Doesnt Returen Anything [undefined ]
+--Break will Not Break the loop 
+
+
+
+

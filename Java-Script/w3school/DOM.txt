@@ -1,0 +1,166 @@
+    DOM => Document Object Model 
+
+1)- DOM Selector 
+
+---find element by ID
+ex:
+document.getElementById("")
+
+---find element by tag name
+ex:
+document.getElementsByTagName("")
+
+---find element by class name 
+ex:
+document.getElementsByClassName("")
+
+---find element by css selectors or (query selector )
+ex:
+document.querySelector("")
+document.querySelectorAll("")
+
+---find element by collection 
+-------title
+ex:
+document.title
+-------body
+ex:
+document.body
+-------image 
+-------forms 
+ex:
+document.forms
+-------links
+==============================================================================
+     Get/Set Element content and attributes 
+
+element.innerHTML 
+
+element.textContent 
+
+---------
+nameElement.gerAttribute("")
+
+nameElemetn.setAttribute("attributeName", "value");
+
+
+
+    Check Attributes
+
+--Element.attributes
+--Element.hasAttribute
+--Element.hasAttributes
+--Element.removeAttribute
+
+===============================================================================
+          Create Elements 
+
+--document.createElement(" ")
+--document.createComment(" ")
+--document.createTextNode(" ")
+--document.createAttribute(" ")
+--document.appendChild(" ")
+
+
+        Deal with Childrens 
+
+-element.children
+-element.childNodes
+-element.firstChild
+-element.lastChild
+-element.firstElementChild
+-element.lastElementChild
+
+
+========================================================
+       DOM Events
+-Use Events on Html
+-Use Events on Js 
+
+----onclick
+----oncontextmenu => right click
+----onmouseenter 
+----onmouseleave 
+
+----onload
+----onscroll
+----onresize 
+
+----onfocus
+----onblur
+----onsubmit
+
+
+----------------------------
+     Events simulation 
+
+--click 
+--focus
+--bulr
+
+============================================
+      Class List 
+
+--length 
+--contains
+--item(index)
+--add 
+--remove 
+--toggle
+=================================================
+      CSS Styling and Stulesheets
+
+elementName.style.cssAttributes = "cssValue" ;
+
+elementName.style.cssText = " cssAttribute: value; ........";
+==================================================
+    Deal with Elements
+
+before [element || string ] 
+after [element || string ]
+append [element || string ]
+prepend [element || string ]
+remove
+===============================================
+     Add Event Listener
+-- Attach more one event in element without over ride
+-- Use (Event) without on 
+
+syntax:
+nameElement.addEventListener("nameEvent", function () { // block of code }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

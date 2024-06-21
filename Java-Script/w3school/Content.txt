@@ -1,0 +1,20 @@
+1- numbers methods    *****
+2- if , switch conditions    ****
+3- array    ****
+4- for , while , do while loops ****
+5- functions     ****
+6- higher order functions ****
+7- object    ****
+8- DOM   ****
+9- DOM Events   ****
+10-BOM    ****
+11-Destructing
+12-set and map Data Type  ****
+13-Map regular expression 
+14-OOP  ****
+15-Date and Time
+16-JSON ****
+17-API ****
+18-Asynchronous ****
+19-AJAX
+20-Promise

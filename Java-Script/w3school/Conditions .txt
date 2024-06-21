@@ -1,0 +1,42 @@
+           The if Statement
+
+Syntax:
+if (condition) {
+  //  block of code to be executed if the condition is true
+}
+
+
+==============================================
+           The Switch Statement
+
+Syntax:
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

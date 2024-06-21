@@ -1,0 +1,76 @@
+    Map Data Type 
+syntax:
+let name = new Map(iterable with key/value)
+ex:
+let myMap = new Map([
+  [10, "Number"],
+  ["name", "String"],
+  [false, "Boolean"]
+]);
+
+
+           Map VS Object
+map    => Does not contain key by defualt 
+object => Has default keys 
+------------
+Map    => Kye can be anything [function , object , any primitive data type ]
+Object => String or symbol 
+------------
+Map    => Order by insertion 
+Object => Not 100% till now 
+------------
+Map    => Get item by size 
+Object => Need to do manually 
+------------
+Map    => Can be directly iterated 
+Object => Not directly and need to use object.keys() and
+------------
+Map => Better performance when add or remove data 
+===============================================================================
+
+          Map Methods 
+--set
+ex: nameMap.set(key, value )
+--get 
+ex: nameMap.get(key, value )
+--delete
+ex: nameMap.delete(key)
+--clear
+ex: nameMap.clear()
+--has
+ex: nameMap.has(key)
+
+
+         Properties 
+--size 
+
+============================================================
+     Map VS WeakMap
+
+Map     => Key can be anything
+WeakMap => key can be object only 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
